@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LogIn/SignUp</string>
+    <string name="lblUsername">Username: </string>
+    <string name="lblPassword">Password: </string>
+    <string name="lblFname">First Name: </string>
+    <string name="lblLname">Last Name: </string>
+    <string name="lblGender">Gender: </string>
+    <string name="lblAddress">Address: </string>
+    <string name="lblEmail">Email Address: </string>
+    <string name="lblContact">Contact No.: </string>
+    <string name="lblVerified">Verified Account?</string>
+    <string name="hntUsername">Enter Username</string>
+    <string name="hntPassword">Enter Password</string>
+    <string name="hntFname">Enter First Name</string>
+    <string name="hntLname">Enter Last Name</string>
+    <string name="hntAddress">Enter Address</string>
+    <string name="hntEmail">Enter Email Address</string>
+    <string name="hntContact">Enter Contact No.</string>
+    <string name="radMale">Male</string>
+    <string name="radFemale">Female</string>
+    <string name="radOther">Prefer not to say</string>
+    <string name="radVerified">Yes</string>
+    <string name="radVerify">No</string>
+    <string name="btnLogIn">Log In</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="btnRegister">Register</string>
+    <string name="btnEdit">Edit Record</string>
+    <string name="btnLogout">Log Out</string>
+</resources>

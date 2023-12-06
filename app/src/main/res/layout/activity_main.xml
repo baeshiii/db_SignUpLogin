@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:typeface="monospace"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblUsername"
+                android:textColor="@android:color/black"
+                android:typeface="monospace"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:backgroundTint="@android:color/white"
+                android:hint="@string/hntUsername" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblPassword"
+                android:textColor="@android:color/black"
+                android:typeface="monospace"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:inputType="textPassword"
+                android:textColor="@android:color/black"
+                android:backgroundTint="@android:color/white"
+                android:hint="@string/hntPassword"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnLogIn"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/greenButtonColor"
+            android:textColor="@android:color/black"
+            android:typeface="monospace"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSignUp"
+            android:textSize="20sp"
+            android:backgroundTint="@color/greenButtonColor"
+            android:textColor="@android:color/black"
+            android:typeface="monospace"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>
